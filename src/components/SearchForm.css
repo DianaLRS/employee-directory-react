@@ -1,7 +1,11 @@
- input{
+ #search{
     margin-top: 10px;
-    margin-left: 5px;
-  
+    width: 300px;
 }
 
-
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}

@@ -2,14 +2,16 @@ import React from "react";
 import "./SearchForm.css";
 
 
-function SearchForm(){
-return(
-  <>
+function SearchForm(props){
+ 
+  return(
 
-<input classname="form-control" type="text" placeholder="Search Directory"></input>
-</>
-)
+<form>
+<input onChange={props.handleInputChange} value={props.search} classname="form-control" type="text" placeholder="Search Directory"id="search"/>
+</form>
 
+);
+ 
   }
 
 
