@@ -1,6 +1,6 @@
  #search{
     margin-top: 10px;
-    width: 300px;
+    width: 350px;
 }
 
 body {
@@ -9,6 +9,4 @@ body {
 }
 form {
     display: inline-block;
-    width: 600px;
-    border: solid black 1px;
 }
