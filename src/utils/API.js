@@ -1,12 +1,12 @@
 import axios from "axios";
 
 
-const BASEURL="https://randomuser.me/api/?results=200";
+const BASEURL="https://randomuser.me/api/?results=200&nat=us"
 
 
     
-  export default {
-Search: function (query){
-    return axios.get(BASEURL + query)
-}
-  }
+export default {
+  getEmployees: function() {
+    return axios.get(BASEURL);
+  },
+};

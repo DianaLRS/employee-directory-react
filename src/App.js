@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
-import SearchForm from "./components/SearchForm";
+import SearchResults from "./components/SearchResults"
+import Wrapper from "./components/Wrapper/Wrapper";
 
-import Table from "./components/Table/Table";
 
 
 
@@ -11,8 +11,10 @@ function App(){
     return(
 <>
         <Header/>
-        <SearchForm/>
-        <Table/>
+        <Wrapper>
+            <SearchResults/>
+        </Wrapper>
+        
       
         
      
