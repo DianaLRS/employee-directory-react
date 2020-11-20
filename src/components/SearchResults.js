@@ -26,8 +26,7 @@ import Wrapper from "./Wrapper/Wrapper";
       
     handleInputChange = event => {
       console.log("testing")
-    const name = event.target.name;
-    const value = event.target.value
+ 
             this.setState({ 
               search: event.target.value
              });
