@@ -1,12 +1,24 @@
  #search{
     margin-top: 10px;
     width: 350px;
+    margin-left: 20px;
 }
 
-body {
-    text-align: center;
+
+.container{
+    margin: auto;
+    
+}
+
+.search{
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
 
 }
-form {
-    display: inline-block;
+
+.filteredNames{
+    margin-top: 10px;
+    float: right;
+
 }

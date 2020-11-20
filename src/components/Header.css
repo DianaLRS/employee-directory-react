@@ -1,15 +1,23 @@
-.header{
-  background-color: black;
-  color: white;
-  height: 120px;
 
+.container{
+
+  max-width: fit-content;
+  margin:auto;
+
+}
+header{
+  background-color: rgba(73, 119, 121, 0.562);
+  color: black;
+  height: 120px;
+  width: 1250px;
+  margin:auto;
 }
 
 .header h1{
   text-align: left;
   font-size: 50px;
   margin-left: 10px;
-  padding-top: 10px;
+  padding-top: 30px;
   text-align: center;
 
 }

@@ -4,10 +4,11 @@ import "./SearchForm.css";
 
 function SearchForm(props){
   return(
-    
+<div className="container">
 
+<div className="row">
+<div className="col-6-sm">
 
-<form className="form-group">
 <input 
  type="text" 
  id="search"
@@ -17,9 +18,16 @@ function SearchForm(props){
 onChange={props.handleInputChange} 
 value={props.search} 
  />
+ 
+ </div>
+ <div className="col-sm-6">
 
-  {/* <button onClick={props.handleInputChange} className="btn btn-primary mt-3"> Search</button> */}
-</form>
+ <button type="button" className="btn btn-link filteredNames">A-Z</button>
+ <button onClick={props.handleFormSubmit} className="btn btn-dark search"> Search</button>
+  </div>
+
+</div>
+</div>
   )
 
 }
